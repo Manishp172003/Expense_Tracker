@@ -182,8 +182,8 @@ async function startServer() {
     });
   }
 
-  app.listen(PORT, "0.0.0.0", () => {
-    console.log(`Expense Tracker server running on http://localhost:${PORT}`);
+  app.listen(DEFAULT_PORT, "0.0.0.0", () => {
+    console.log(`Expense Tracker server running on http://localhost:${DEFAULT_PORT}`);
   });
 }
 
