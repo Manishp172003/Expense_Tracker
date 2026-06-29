@@ -17,7 +17,8 @@ interface Expense {
 }
 
 const app = express();
-const PORT = 3000;
+const DEFAULT_PORT = Number(process.env.PORT || 3000);
+const HOST = process.env.HOST || "0.0.0.0";
 const DATA_FILE = path.join(process.cwd(), "expenses.json");
 
 // Helper to read expenses from file
