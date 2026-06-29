@@ -1,0 +1,6 @@
+{
+  "name": "Expense Tracker",
+  "description": "A full-stack responsive Expense Tracker application featuring CRUD operations, detailed reports with charts, categorization, search, month filters, and PDF/Excel export utilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
