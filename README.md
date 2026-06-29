@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Expense Tracker
 
-# Run and deploy your AI Studio app
+A React + Express expense tracking app with authentication, expense management, and a modern UI.
 
-This contains everything you need to run your app locally.
+## Features
+- User registration and login
+- Add, edit, and view expenses
+- Protected routes for authenticated users
+- Responsive interface built with React and Vite
 
-View your app in AI Studio: https://ai.studio/apps/f8343574-a649-488b-a0cb-c6eba1de62dc
+## Getting Started
 
-## Run Locally
+### Prerequisites
+- Node.js 18+
 
-**Prerequisites:**  Node.js
+### Install dependencies
+npm install
 
+### Run locally
+npm run dev
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Build for production
+npm run build
